@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "219850a4-6eba-4de1-934d-c599ade89ed2",
+		"name": "Z-ex",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sendemail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"subject\":\"Test email\" ,\r\n    \"text\":\"hello\",\r\n    \"toAddr\":\"xxxxx@gmail.com\",\r\n    \"fromAddr\":\"xxxxx@gmail.com\",\r\n    \"html\":\"<div> test email </div> \"\r\n}"
+				},
+				"url": "http://localhost:6060/sendemail/"
+			},
+			"response": []
+		}
+	]
+}
