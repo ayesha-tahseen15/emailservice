@@ -10,8 +10,8 @@ const sendEmail = async (req: Request, res: Response, next: NextFunction) => {
     
     const html = req.body.html;
     const hostname= "smtp.gmail.com";
-    const username= "emailservicetest1303@gmail.com";
-    const password= "emailservice@123";
+    const username= "xxx@gmail.com";
+    const password= "xxx";
   
     const transporter = nodemailer.createTransport({
       host: hostname,
