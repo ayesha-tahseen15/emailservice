@@ -29,6 +29,10 @@ npm run dev
 16. Test the api using postman, added the postman collection, make sure to update to & from address.
 
 
-Run solution using below two commands
-npm install
-npm run dev
+Run solution using below two commands:
+
+
+>>npm install
+
+
+>>npm run dev
