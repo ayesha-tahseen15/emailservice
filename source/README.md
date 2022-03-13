@@ -26,4 +26,9 @@ npm run dev
 14. create routes.ts file inside routes folder and place the route required for the added controller method
 15. Start development server using
 npm run dev 
-16. Test the api using postman
+16. Test the api using postman, added the postman collection, make sure to update to & from address.
+
+
+Run solution using below two commands
+npm install
+npm run dev
